@@ -16,12 +16,14 @@ h1 {
 .col {
     background-color: rosybrown;
     border: 1px solid black;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
     /* box-sizing: border-box; */
+    align-items: flex-end;
 }
 
 .sub {
-    display: inline;
+    width: 95px;
     background-color: orange;
     border: 1px solid black;
     box-sizing: border-box;
